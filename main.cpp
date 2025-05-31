@@ -2499,8 +2499,46 @@
 //   }
 // }
 // ###########################################
-#include<iostream>
-using namespace std;
-int main(){
-    cout<<"hello";
-}
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     cout<<"hello";
+// }
+###################################################
+// #include<iostream>
+// using namespace std;
+
+// vector<int> stringMatch(const string& text, const string& pattern) {
+//     vector<int> indices;
+//     int n = text.length();
+//     int m = pattern.length();
+    
+//     for (int i = 0; i <= n - m; ++i) {
+//         int j;
+//         for (j = 0; j < m; ++j) {
+//             if (text[i + j] != pattern[j])
+//                 break;
+//         }
+//         if (j == m)
+//             indices.push_back(i);
+//     }
+    
+//     return indices;
+// }
+
+// int main() {
+//     string text = "AABAACAADAABAABA";
+//     string pattern = "AABA";
+//     vector<int> indices = stringMatch(text, pattern);
+    
+//     cout << "Indices where pattern is found:";
+//     for (int index : indices) {
+//         cout << " " << index;
+//     }
+//     cout << endl;
+
+//     return 0;
+// }
+###################################################
+
+
